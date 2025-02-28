@@ -1,0 +1,55 @@
+.quiz-app-wrapper * {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+.quiz-app-wrapper {
+  min-height: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+}
+
+.quiz-app-wrapper img {
+  max-width: 100%;
+}
+
+.quiz-app-wrapper button {
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(132, 53, 222, 1) 0%,
+    rgba(184, 84, 232, 1) 100%
+  );
+  border-radius: 3rem;
+  border: none;
+}
+
+.quiz-app-wrapper button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(184, 84, 232, 1) 0%,
+    rgba(132, 53, 222, 1) 100%
+  );
+}
+
+.Quiz-App {
+  text-align: center;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Quiz-App h1 {
+  margin-bottom: 2rem;
+}
