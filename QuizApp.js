@@ -1,2 +1,2 @@
-import QuizApp from "./QuizApp";
+import QuizApp from "./QuizApp.jsx";
 export default QuizApp;
